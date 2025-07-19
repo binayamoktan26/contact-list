@@ -1,0 +1,11 @@
+.wrapper {
+  background: url(./assets/a.jpeg) no-repeat center;
+  background-size: cover;
+}
+
+/* phone layout  */
+
+.phone {
+  background: url(./assets/kakashi.jpeg) no-repeat center;
+  background-size: cover;
+}
