@@ -46,3 +46,24 @@
   filter: drop-shadow(0px 0px 50px rgba(0, 150, 255, 1))
     drop-shadow(0px 0px 20px rgba(0, 150, 255, 1)) blur(3px);
 }
+
+#label {
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  animation: sliderAnimation 3s ease-in-out infinite;
+}
+
+@keyframes sliderAnimation {
+  0%,
+  100% {
+    color: black;
+    filter: drop-shadow(0px 0px 20px rgb(18, 79, 149));
+  }
+  50% {
+    color: rgb(43, 112, 190);
+    filter: drop-shadow(0px 0px 20px rgb(18, 79, 149));
+  }
+}
