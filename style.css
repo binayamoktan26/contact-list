@@ -9,6 +9,9 @@
   background: url(./assets/mobile.jpeg) no-repeat center;
   background-size: cover;
 }
+.phone::-webkit-scrollbar {
+  display: none;
+}
 
 /* HomeScreen  layout */
 .slider {
