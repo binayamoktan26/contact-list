@@ -78,3 +78,6 @@ a {
   text-decoration: none;
   color: black;
 }
+.contactIcon:hover {
+  cursor: pointer;
+}
